@@ -160,7 +160,7 @@ links_title: 推荐阅读
 links_layout: block
 #links_layout: inline
 links:
-  # : http://example.com/
+  es6: http://es6.ruanyifeng.com//
   Swift 4: https://developer.apple.com/swift/
   Objective-C: https://developer.apple.com/documentation/objectivec
 
