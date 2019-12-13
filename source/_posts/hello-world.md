@@ -1,6 +1,9 @@
 title: 初心
-tags: []
-categories: []
+tags:
+  - 不忘初心
+categories:
+  - 日志
+author: guofes
 date: 2019-12-11 20:24:00
 ---
 
