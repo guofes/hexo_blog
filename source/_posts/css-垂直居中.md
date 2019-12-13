@@ -1,4 +1,4 @@
-title: css 垂直水平居中（未完）
+title: css 垂直水平居中
 author: 郭峰
 tags:
   - 前端基础
@@ -39,7 +39,38 @@ date: 2019-12-12 16:52:00
     margin-top: -50px;
 }
 ```
-### 1.2
+<!--more-->
+### 1.2.text-align + line-height
+仅适用于文字,且外层高度已知
+```css
+.wrapper{
+     text-align: center;
+     line-height: 150px;
+   }
+```
+### 1.3.calc
+```css
+.center{
+   width: 100px;
+   height: 100px;
+   margin-left: calc(50% - 50px);
+   margin-top: calc(50% - 50px);
+  }
+```
+### 1.4.absolute + calc
+```css
+.wrapper{
+position: relative
+}
+.center{
+	position: absolute;
+   width: 100px;
+   height: 100px;
+   left: calc(50% - 50px);
+   top: calc(50% - 50px);
+  }
+```
+
 
 ## 2.宽度未知
 ### 如下面所示要center垂直居中于wrapper
@@ -80,11 +111,14 @@ date: 2019-12-12 16:52:00
 }
 ```
 ### 2.4.table-cell
-利用 table 的单元格居中效果展示。与 flex 一样，需要写在父级元素上。
+利用 table 的单元格居中效果展示。好像也只适用于文字
 ```css
 .wrapper {
-    display: table-cell;
+    display: table;	
     text-align: center;
+}
+.center{
+    display: table-cell;
     vertical-align: middle;
 }
 ```
@@ -115,7 +149,7 @@ date: 2019-12-12 16:52:00
     justify-self: center;
 }
 ```
-### 2.7.::after
+### 2.7.::after（有问题）
 伪元素也能用来实现居中么？感觉还是挺神奇的，
 ```css
     .wrapper{
@@ -130,3 +164,5 @@ date: 2019-12-12 16:52:00
     vertical-align: middle;
     }
 ```
+## 演示
+[演示地址](https://guofes.github.io/learn/center/center.html)
