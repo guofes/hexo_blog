@@ -165,4 +165,4 @@ position: relative
     }
 ```
 ## 演示
-[演示地址](https://guofes.github.io/learn/center/center.html)
+[演示地址](https://guofes.github.io/learn/css/center)

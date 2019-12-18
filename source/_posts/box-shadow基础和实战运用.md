@@ -36,4 +36,4 @@ box-shadow: X轴偏移量 Y轴偏移量 [阴影模糊半径] [阴影扩展] [阴
 ```html
 ```
 * 实现了，但是和阴影没有什么关系。。。。。  
-[演示](https://guofes.github.io/learn/box_shadow/)
+[演示](https://guofes.github.io/learn/css/box_shadow/)

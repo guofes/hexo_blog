@@ -120,4 +120,4 @@ top: 100px;
 
 ```
 #### 效果
-[演示](https://guofes.github.io/learn/sticky/index.html)
+[演示](https://guofes.github.io/learn/css/sticky)
