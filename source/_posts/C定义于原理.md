@@ -47,7 +47,7 @@ date: 2019-12-15 15:05:00
     .son_box{
         background: green;
         height: 150px;
-        widows: 300px;
+        width: 300px;
         margin-top: 100px;
     }
     </style>
